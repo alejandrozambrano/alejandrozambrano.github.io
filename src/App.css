@@ -1,0 +1,23 @@
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.language-selector button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
