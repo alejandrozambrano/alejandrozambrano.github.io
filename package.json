@@ -1,7 +1,7 @@
 {
   "name": "appli1",
   "version": "0.1.0",
-  "homepage": "https://alejandrozambrano.github.io/portafolio",
+  "homepage": "",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
