@@ -11,11 +11,14 @@
   font-size: 1.8rem;
   cursor: pointer;
   margin: 0 5px;
-  padding: 0;
 }
 
 .language-selector button:focus {
   outline: none;
+}
+
+.language-selector button:hover {
+  transform: scale(1.2);
 }
 
 a {
@@ -30,9 +33,10 @@ a:hover {
 .no-bullets {
   list-style: none;
   padding-left: 0;
+  line-height: 2;
   text-align: left;
   max-width: 700px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 
 .no-bullets li {
@@ -46,5 +50,13 @@ a:hover {
 
 p a {
   margin: 10px;
+}
+
+.about-me {
+  max-width: 700px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
