@@ -58,6 +58,15 @@ function App() {
             🧱 Fundamentos de HTML – Proyecto final
           </a>
         </li>
+        <li>
+           <a
+            href="https://github.com/alejandrozambrano/projectClient"
+            target="_blank"
+            rel="noreferrer"
+            >
+            🎥 Streaming Site – React, Node.js y MongoDB
+            </a>
+            </li>
       </ul>
       <h2>{t.contact}</h2>
       <p>
