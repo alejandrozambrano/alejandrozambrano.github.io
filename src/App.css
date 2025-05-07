@@ -6,10 +6,16 @@
 }
 
 .language-selector button {
-  margin: 0 5px;
-  padding: 6px 12px;
-  font-size: 18px;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
   cursor: pointer;
+  margin: 0 5px;
+  padding: 0;
+}
+
+.language-selector button:focus {
+  outline: none;
 }
 
 a {
@@ -19,5 +25,26 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.no-bullets {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.no-bullets li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.no-bullets a {
+  margin: 10px;
+}
+
+p a {
+  margin: 10px;
 }
 
