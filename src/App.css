@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+body {
+  background-color: #8FE3FA;
+}
+
 .language-selector button {
   background: none;
   border: none;
