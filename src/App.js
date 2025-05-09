@@ -71,14 +71,17 @@ function App() {
       </section>
 
       <section className="skills">
-       <h2>{t.skillsTitle}</h2>
-        <ul className="no-bullets">
-         {t.skills.map((skill, index) => (
-          <li key={index}>✅ {skill}</li>
-         ))}
+        <h2>{t.skillsTitle}</h2>
+        <ul className="skill-list">
+          {t.skills.map((skill, index) => (
+            <li key={index}>✅ {skill}</li>
+          ))}
         </ul>
-        </section>
+      </section>
 
+      <section className="Project">
+        <h2>{t.projects}</h2>
+      </section>
 
       <ul className="no-bullets">
         <li>
