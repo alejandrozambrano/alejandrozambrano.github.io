@@ -73,3 +73,27 @@ p a {
   line-height: 1.8;
 }
 
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top:80px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+}
+
+.about-text {
+  max-width: 400px;
+  text-align: left;
+}
+
+

@@ -66,8 +66,13 @@ function App() {
       <h1>{t.greeting}</h1>
 
       <section className="about-me">
-        <h2>{t.aboutMeTitle}</h2>
-        <p>{t.aboutMeText}</p>
+        <div className="about-container">
+          <img src="perfil.jpeg" alt="Alejandro Zambrano" className="profile-photo"/>
+          <div className="about-text">
+            <h2>{t.aboutMeTitle}</h2>
+            <p>{t.aboutMeText}</p>
+          </div>
+        </div>
       </section>
 
       <section className="skills">
