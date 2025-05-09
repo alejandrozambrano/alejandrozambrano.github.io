@@ -121,6 +121,7 @@ function App() {
         </li>
       </ul>
 
+      <section>
       <h2>{t.contact}</h2>
       <p>
         📧{" "}
@@ -134,6 +135,9 @@ function App() {
           LinkedIn
         </a>
       </p>
+      </section>
+      
+      
     </div>
   );
 }

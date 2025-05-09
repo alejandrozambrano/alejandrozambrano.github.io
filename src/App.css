@@ -96,4 +96,23 @@ p a {
   text-align: left;
 }
 
+section {
+  padding: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+section:first-of-type {
+  border-top: none;
+}
+
+.greeting {
+  margin-bottom: 30px;
+}
+.skills,
+.projects,
+.contact {
+  margin-top: 30px;
+}
+
+
 
