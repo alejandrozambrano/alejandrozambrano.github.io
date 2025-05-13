@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #8FE3FA;
+  background-color: #5f9ea0;
 }
 
 .language-selector button {
@@ -106,7 +106,7 @@ section:first-of-type {
 }
 
 .greeting {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .skills,
 .projects,
